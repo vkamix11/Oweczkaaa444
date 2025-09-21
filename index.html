@@ -2,78 +2,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>owieczkaaa444 - Nowy Streamer!</title>
+  <title>owieczkaaa444 - Nowy Streamer</title>
   <style>
-    /* Reset i czcionki */
-    body, html {
+    /* Reset i podstawowy wygląd */
+    * {
       margin: 0;
       padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #1e1e2f, #2d2d44);
-      color: white;
-      overflow-x: hidden;
-      scroll-behavior: smooth;
-    }header {
+      box-sizing: border-box;
+    }body {
+  font-family: 'Inter', sans-serif;
+  background: #0d0d0d;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+header {
   text-align: center;
-  padding: 50px 20px;
-  background: rgba(0,0,0,0.4);
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #111, #1a1a1a);
 }
 
 header h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 700;
   margin-bottom: 15px;
-  animation: fadeInDown 1.5s ease;
+  letter-spacing: 1px;
+  animation: fadeInDown 1.2s ease;
 }
 
 header p {
   font-size: 1.2rem;
-  animation: fadeIn 2s ease;
+  color: #aaa;
+  animation: fadeIn 1.8s ease;
 }
 
 .cta {
   display: inline-block;
-  margin-top: 25px;
-  padding: 15px 30px;
-  font-size: 1.1rem;
-  color: white;
+  margin-top: 30px;
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
   background: #9146FF;
-  border-radius: 30px;
+  border-radius: 8px;
   text-decoration: none;
   transition: all 0.3s ease;
-  animation: pulse 2s infinite;
 }
 
 .cta:hover {
   background: #772ce8;
-  transform: scale(1.05);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(145, 70, 255, 0.4);
 }
 
 section {
-  padding: 60px 20px;
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: 0 auto;
   text-align: center;
 }
 
 section h2 {
   font-size: 2rem;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 
 section p {
-  font-size: 1.1rem;
-  max-width: 700px;
-  margin: 0 auto;
+  font-size: 1.05rem;
+  color: #ccc;
+  margin-bottom: 15px;
 }
 
 footer {
   text-align: center;
-  padding: 20px;
-  background: rgba(0,0,0,0.3);
+  padding: 30px 20px;
+  background: #111;
   font-size: 0.9rem;
+  color: #777;
 }
 
 /* Animacje */
 @keyframes fadeInDown {
-  from { opacity: 0; transform: translateY(-50px); }
+  from { opacity: 0; transform: translateY(-40px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
@@ -82,33 +93,19 @@ footer {
   to { opacity: 1; }
 }
 
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(145,70,255, 0.7); }
-  70% { box-shadow: 0 0 0 20px rgba(145,70,255, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(145,70,255, 0); }
-}
-
 /* Responsywność */
 @media (max-width: 768px) {
   header h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
-
   header p {
     font-size: 1rem;
   }
-
-  .cta {
-    font-size: 1rem;
-    padding: 12px 24px;
-  }
-
   section h2 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
-
   section p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 }
 
@@ -116,22 +113,19 @@ footer {
 </head>
 <body>
   <header>
-    <h1>👋 Witaj na stronie owieczkaaa444!</h1>
-    <p>Nowy streamer, który właśnie zaczyna swoją przygodę na Twitchu 🎮</p>
-    <a href="https://www.twitch.tv/owieczkaaa444?sr=a" target="_blank" class="cta">✨ Obserwuj na Twitchu ✨</a>
+    <h1>owieczkaaa444</h1>
+    <p>Nowy streamer na Twitchu – dołącz i bądź częścią społeczności od samego początku.</p>
+    <a href="https://www.twitch.tv/owieczkaaa444?sr=a" target="_blank" class="cta">Obserwuj na Twitchu</a>
   </header>  <section>
-    <h2>Kilka słów o mnie</h2>
+    <h2>O mnie</h2>
     <p>
-      Hej! Jestem <strong>owieczkaaa444</strong>, nowym streamerem, który dopiero stawia pierwsze kroki w świecie Twitcha.
-      Chcę dzielić się z Wami pozytywną energią, grami i dobrą zabawą. 🚀
+      Nazywam się <strong>owieczkaaa444</strong> i dopiero rozpoczynam przygodę ze streamingiem. Chcę stworzyć przestrzeń, gdzie każdy będzie mógł się dobrze bawić i czuć swobodnie.
     </p>
   </section>  <section>
-    <h2>Dlaczego warto mnie obserwować?</h2>
-    <p>
-      💜 Świeże podejście i kreatywność<br>
-      🎮 Gameplay z ulubionych gier<br>
-      🤝 Przyjazna atmosfera i kontakt z widzami<br>
-    </p>
+    <h2>Dlaczego warto zajrzeć?</h2>
+    <p>• Nowe spojrzenie na gry i streaming</p>
+    <p>• Przyjazna atmosfera i kontakt z widzami</p>
+    <p>• Autentyczność i świeża energia</p>
   </section>  <footer>
     &copy; 2025 owieczkaaa444. Wszystkie prawa zastrzeżone.
   </footer>
